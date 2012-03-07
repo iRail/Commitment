@@ -11,8 +11,8 @@ You need
 
 ## License, copyright & author
 
-Wouter Vandenneucker
-Pieter Colpaert
+* Wouter Vandenneucker
+* Pieter Colpaert
 
 © iRail vzw/asbl 2012
 
