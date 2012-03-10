@@ -20,7 +20,6 @@
 	<div class="above">
 </div>
   <header>
-	<p>De Lijn - Nachtbussen</p> <!--Change <this text into config later-->
 	<div id="left" class="box">
 		<div class="boxtop">Bereik:</div>
 		<div class="boxbottom"><span style="color: #6fafff; font-weight: 900; font-size: 24px">4000</span><br> pers.</div>
@@ -28,10 +27,8 @@
 	<div id="right" class="box">
 		<div class="boxtop">Deel online:</div>
 		<div class="boxbottom">
-		<a target="_blank" href="http://www.facebook.com/sharer.php?u=http://ikneemdenachtbus.be" title="Deel deze webpagina op Facebook">facebook</a>
-		<br>
 		<a target="_blank" href="http://www.facebook.com/dialog/feed?
-app_id=273909402684521&link=http://ikneemdenachtbus.be&picture=http://ikneemdenachtbus.be/img/logo.png&name=Ik%20neem%20de%20nachtbus!&caption=Omdat%20nacht-,%20feest-%20en%20avondlijnen%20moeten%20blijven&description=Petitie%20tegen%20de%20afschaffing%20van%20de%20nachtlijnen%20en%20voor%20meer%20en%20duidelijke%20informatie.&message=Teken%20nu%20de%20petitie%20voor%20het%20behoud%20van%20de%20nacht-%20en%20avondlijnen!&redirect_uri=http://ikneemdenachtbus.be" title="Deel deze webpagina op Facebook">facebook2</a>
+app_id=273909402684521&link=http://ikneemdenachtbus.be&picture=http://ikneemdenachtbus.be/img/logo.png&name=Ik%20neem%20de%20nachtbus!&caption=Omdat%20nacht-,%20feest-%20en%20avondlijnen%20moeten%20blijven&description=Petitie%20tegen%20de%20afschaffing%20van%20de%20nachtlijnen%20en%20voor%20meer%20en%20duidelijke%20informatie.&message=Teken%20nu%20de%20petitie%20voor%20het%20behoud%20van%20de%20nacht-%20en%20avondlijnen!&redirect_uri=http://ikneemdenachtbus.be" title="Deel deze webpagina op Facebook">facebook</a>
 		<br>
 		<a href="http://twitter.com/?status=Ik%20neem%20de%20nachtbus!%20Omdat%20nacht-,%20feest-%20en%20avondlijnen%20moeten%20blijven:%20http%3A%2F%2Fikneemdenachtbus.be%20%23ikneemdenachtbus" target="_blank" title="Deel deze webpagina op Twitter">twitter</a></div>
 	</div>
@@ -40,7 +37,12 @@ app_id=273909402684521&link=http://ikneemdenachtbus.be&picture=http://ikneemdena
   <div role="main" class="content">
 		<div class="contentbox-bar"><h1>Teken de petitie</h1></div>
 		<div class="contentbox">
-				<div class="signed">Je tekende de petitie!</div>
+				<div class="signed">Je tekende de petitie!<br><br>Deel ze met je vrienden:</div>
+				<div class="sharebuttons">
+					<a class="sharebutton" id="fb" target="_blank" href="http://www.facebook.com/dialog/feed?
+	app_id=273909402684521&link=http://ikneemdenachtbus.be&picture=http://ikneemdenachtbus.be/img/logo.png&name=Ik%20neem%20de%20nachtbus!&caption=Omdat%20nacht-,%20feest-%20en%20avondlijnen%20moeten%20blijven&description=Petitie%20tegen%20de%20afschaffing%20van%20de%20nachtlijnen%20en%20voor%20meer%20en%20duidelijke%20informatie.&message=Ik%20tekende%20net%20de%20petitie%20voor%20het%20behoud%20van%20de%20nacht-%20en%20avondlijnen!&redirect_uri=http://ikneemdenachtbus.be" title="Deel deze webpagina op Facebook">facebook</a>
+					<a class="sharebutton" id="twitter" href="http://twitter.com/?status=Ik%20tekende%20net%20de%20nachtbus%20petitie%20omdat%20nacht-,%20feest-%20en%20avondlijnen%20moeten%20blijven:%20http%3A%2F%2Fikneemdenachtbus.be%20%23ikneemdenachtbus" target="_blank" title="Deel deze webpagina op Twitter">twitter</a>
+				</div>
 		</div>
   </div>
   <footer>

@@ -154,6 +154,41 @@ a.logo{
 	text-shadow: 1px 1px 0 #333;
 }
 
+.sharebuttons{
+	height: 50px;
+}
+
+#fb{
+	float: left;
+	margin-left: 100px;
+	background: #133783;
+}
+
+#twitter{
+	float: right;
+	margin-right: 100px;
+	background: #4099FF;
+}
+
+a.sharebutton:link{
+	text-decoration: none;
+	color: #fff;
+	font-size: 30px;
+	font-weight: 900;
+	border-radius: 12px;
+	width: 200px;
+	text-align: center;
+}
+a.sharebutton:visited{
+	color: #fff;
+}
+a.sharebutton:hover{
+	color: #fff;
+	text-shadow: 2px 2px 0 #111;
+	box-shadow: 2px 2px 2px #111;
+
+}
+
 /* Footer starts here */
 footer{
 	margin: 0 auto;
