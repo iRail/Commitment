@@ -65,7 +65,6 @@ a.logo{
 .box .boxbottom a:hover{
 	text-decoration: none;
 	color: #06e;
-
 }
 
 /* Main starts here */
@@ -185,7 +184,7 @@ a.sharebutton:visited{
 a.sharebutton:hover{
 	color: #fff;
 	text-shadow: 2px 2px 0 #111;
-	box-shadow: 2px 2px 0 #111;
+	box-shadow: 2px 2px 2px #111;
 
 }
 
@@ -193,5 +192,18 @@ a.sharebutton:hover{
 footer{
 	margin: 0 auto;
 	text-align: center;
+}
+
+footer a:link{
+	text-decoration: none;
+	color: #6fafff;
+}
+footer a:visited{
+	text-decoration: none;
+	color: #6fafff;
+}
+footer a:hover{
+	text-decoration: none;
+	color: #06e;
 }
 

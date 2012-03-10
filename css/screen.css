@@ -65,7 +65,6 @@ a.logo{
 .box .boxbottom a:hover{
 	text-decoration: none;
 	color: #06e;
-
 }
 
 /* Main starts here */
@@ -193,5 +192,18 @@ a.sharebutton:hover{
 footer{
 	margin: 0 auto;
 	text-align: center;
+}
+
+footer a:link{
+	text-decoration: none;
+	color: #fff;
+}
+footer a:visited{
+	text-decoration: none;
+	color: #fff;
+}
+footer a:hover{
+	text-decoration: none;
+	color: #06e;
 }
 

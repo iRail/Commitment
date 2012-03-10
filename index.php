@@ -14,6 +14,8 @@
   <link rel="stylesheet" href="css/screen.css" media="screen" rel="stylesheet" type="text/css" />
  
   <script src="js/libs/modernizr-2.5.3.min.js"></script>
+
+  <?php require 'dbconfig.php' ?>
 </head>
 <body>
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
@@ -22,7 +24,11 @@
   <header>
 	<div id="left" class="box">
 		<div class="boxtop">Bereik:</div>
-		<div class="boxbottom"><span style="color: #6fafff; font-weight: 900; font-size: 24px">4000</span><br> pers.</div>
+			<?php
+			$result = mysql_query("SELECT * FROM users", $link);
+			$num_rows = mysql_num_rows($result);
+			?>
+		<div class="boxbottom"><span style="color: #6fafff; font-weight: 900; font-size: 24px"><?php echo $num_rows; ?></span><br> pers.</div>
 	</div>
 	<div id="right" class="box">
 		<div class="boxtop">Deel online:</div>
