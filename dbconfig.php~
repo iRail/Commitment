@@ -1,4 +1,0 @@
-<?php
-$link = mysql_connect("localhost", "root", "kippeneieren") or die ('Error: ' . mysql());
-mysql_select_db("indn");
-?>
