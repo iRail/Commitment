@@ -142,8 +142,16 @@ a.logo{
 }
 
 .submit:hover{
-	color: #f1e300;
-	background: #000;
+	background: #f1e300;
+}
+
+.signed{
+	color: #FFF;
+	font-weight: 900;
+	padding-top: 20px;
+	padding-bottom:20px;
+	text-align: center;
+	text-shadow: 1px 1px 0 #333;
 }
 
 /* Footer starts here */

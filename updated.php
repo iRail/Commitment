@@ -38,28 +38,9 @@ app_id=273909402684521&link=http://ikneemdenachtbus.be&picture=http://ikneemdena
   </header>
 	<!-- content -->
   <div role="main" class="content">
-		<div class="contentbox-bar"><h1>Informatie</h1></div>
-		<div class="contentbox">
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-		</div>
-		<div class="contentbox-bar"><h1>Vind je lijn</h1></div>
-		<div class="contentbox">
-			<h2 style="text-align: center; color: #f1e300; font-weight: 900;">iRail API goes here</h2>
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-		</div>
 		<div class="contentbox-bar"><h1>Teken de petitie</h1></div>
 		<div class="contentbox">
-			<form method="post" action="sign.php">
-				<div id="signbox">
-					<div class="input-description">Voornaam: <input class="inputbox" type="text" name="fname" />
-					</div>
-					<div class="input-description">Familienaam: <input class="inputbox" type="text" name="lname" />
-					</div>
-					<div class="input-description">Email: <input class="inputbox" type="text" name="email" />
-					</div>
-					<input class="submit" type="submit" name="submit"  value="teken" />
-				</div>
-			</form>
+				<div class="signed">Je tekende de petitie!</div>
 		</div>
   </div>
   <footer>

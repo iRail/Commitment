@@ -129,8 +129,8 @@ a.logo{
 
 .submit{
 	margin-top: 40px;
-	height: 40px;
-	width: 100px;
+	height: 35px;
+	width: 120px;
 	padding: 4px;
 	font-size: 20px;
 	font-weight: 900;
@@ -142,8 +142,7 @@ a.logo{
 }
 
 .submit:hover{
-	color: #f1e300;
-	background: #000;
+	background: #f1e300;
 }
 
 /* Footer starts here */
