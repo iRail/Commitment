@@ -56,14 +56,15 @@ a.logo{
 
 .box .boxbottom a:link{
 	text-decoration: none;
-	/*color: #6fafff;*/
+	color: #6fafff;
 }
 .box .boxbottom a:visited{
 	text-decoration: none;
-	/*color: #6fafff;*/
+	color: #6fafff;
 }
 .box .boxbottom a:hover{
 	text-decoration: none;
+	color: #06e;
 
 }
 
@@ -94,5 +95,8 @@ a.logo{
 	margin-bottom: 35px;
 }
 
-
+/* Footer starts here */
+footer{
+	margin: 0 auto;
+}
 
