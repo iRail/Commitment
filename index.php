@@ -6,18 +6,14 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="Ik neem de nachtbus! Omdat nacht-, feest- en avondlijnen moeten blijven">
   <title>Ik neem de nachtbus</title>
-  <meta name="description" content="">
 
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="css/style.css" media="screen" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="css/screen.css" media="screen" rel="stylesheet" type="text/css" />
  
   <script src="js/libs/modernizr-2.5.3.min.js"></script>
-
-<?php 
-	//include './config/facebookcnf.php';
-?>
 </head>
 <body>
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
@@ -31,7 +27,13 @@
 	</div>
 	<div id="right" class="box">
 		<div class="boxtop">Deel online:</div>
-		<div class="boxbottom"><a target="_blank" href="http://www.facebook.com/sharer.php?u=http://ikneemdenachtbus.be" title="Deel deze webpagina op Facebook">facebook</a><br><br><a href="http://twitter.com/?status=Ik%20neem%20de%20nachtbus!%20Omdat%20nacht-,%20feest-%20en%20avondlijnen%20moeten%20blijven:%20http%3A%2F%2Fikneemdenachtbus.be%20%23ikneemdenachtbus" target="_blank" title="Deel deze webpagina op Twitter">twitter</a></div>
+		<div class="boxbottom">
+		<a target="_blank" href="http://www.facebook.com/sharer.php?u=http://ikneemdenachtbus.be" title="Deel deze webpagina op Facebook">facebook</a>
+		<br>
+		<a target="_blank" href="http://www.facebook.com/dialog/feed?
+app_id=273909402684521&link=http://ikneemdenachtbus.be&picture=http://ikneemdenachtbus.be/img/logo.png&name=Ik%20neem%20de%20nachtbus!&caption=Omdat%20nacht-,%20feest-%20en%20avondlijnen%20moeten%20blijven&description=Petitie%20tegen%20de%20afschaffing%20van%20de%20nachtlijnen%20en%20voor%20meer%20en%20duidelijke%20informatie.&message=Teken%20nu%20de%20petitie%20voor%20het%20behoud%20van%20de%20nacht-%20en%20avondlijnen!" title="Deel deze webpagina op Facebook">facebook2</a>
+		<br>
+		<a href="http://twitter.com/?status=Ik%20neem%20de%20nachtbus!%20Omdat%20nacht-,%20feest-%20en%20avondlijnen%20moeten%20blijven:%20http%3A%2F%2Fikneemdenachtbus.be%20%23ikneemdenachtbus" target="_blank" title="Deel deze webpagina op Twitter">twitter</a></div>
 	</div>
   </header>
 	<!-- content -->
@@ -47,43 +49,15 @@
 		</div>
 		<div class="contentbox-bar"><h1>Teken de petitie</h1></div>
 		<div class="contentbox">
-			<p>twitter</p>
-			<p>facebook</p>
-				<?php if ($facebook->getSession()) { ?>
-				<form action="./config/fbsign.php" method="post">
-				<fieldset class="field_name">
-				<label>First Name</label>
-				<input class="name" name="first_name" type="text" value="<?php if ($facebook->getSession()) {echo $me['first_name'];}else{echo'First Name';} ?>" />
-				</fieldset>
-				<fieldset class="field_name">
-				<label>Last Name</label>
-				<input class="name" name="last_name" type="text" value="<?php if ($facebook->getSession()) {echo $me['last_name'];}else{echo'Last Name';} ?>" />
-				</fieldset>
-				<fieldset>
-				<label>Email Address</label>
-				<input name="email" type="text" value="<?php if ($facebook->getSession()) {echo $me['email'];}else{echo'email address';} ?>" />
-				</fieldset>
-				<fieldset>
-				<input name="submit" type="submit" value="submit" />
-				</fieldset>
-				</form>
-				<?php } else {
-				  ?>
-				<p>Sign up with Facebook <fb:login-button perms="email,user_checkins,user_location,publish_stream,user_birthday,offline_access"> Connect</fb:login-button> It only takes a few seconds</p>
-				<div id="fb-root"></div>
-				      <script src="http://connect.facebook.net/nl_BE/all.js"></script>
-				      <script>
-					 FB.init({ 
-					    appId:'273909402684521', cookie:true, 
-					    status:true, xfbml:true 
-					 });
-						 FB.Event.subscribe('auth.login', function(response) {
-					window.location.reload(); //will reload your page you are on
-				      });
-				      </script> 
-				 <?php }
-				?> 
-	
+			<div id="signbox">
+				<div class="input-description">Voornaam: <input class="inputbox" type="text" name="fname" />
+				</div>
+				<div class="input-description">Familienaam: <input class="inputbox" type="text" name="lname" />
+				</div>
+				<div class="input-description">Email: <input class="inputbox" type="text" name="email" />
+				</div>
+				<input class="submit" type="button" name="submit" value="teken" />
+			</div>
 		</div>
   </div>
   <footer>
