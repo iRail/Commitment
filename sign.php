@@ -1,7 +1,7 @@
 <?php
-$fname = $_POST['fname'];
-$lname = $_POST['lname'];
-$email = $_POST['email'];
+$fname = mysql_real_escape_string($_POST['fname']);
+$lname = mysql_real_escape_string($_POST['lname']);
+$email = mysql_real_escape_string($_POST['email']);
 
 $query="INSERT INTO users (id, fname, lname, email) VALUES ('NULL', '".$fname."', '".$lname."', '".$email."')";
 
